@@ -1,0 +1,17 @@
+<div *ngIf="invalidCredentialMsg" [ngClass]="error">{{invalidCredentialMsg}}</div>
+<form [formGroup]="loginForm" (ngSubmit)="onFormSubmit()" class="frmStyle">
+    <fieldset>
+        <legend>Login</legend>
+        <mat-form-field class="field-width">
+            <input type="number" matInput placeholder="Mobile No" formControlName="mobileNo">
+        </mat-form-field>
+        <mat-form-field class="field-width">
+            <input type="date" matInput placeholder="DOB" formControlName="dob">
+        </mat-form-field>
+
+        <button mat-fab color="primary" class="addBtnStyle" >
+            Submit
+        </button>
+
+    </fieldset>
+</form>
