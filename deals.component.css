@@ -1,0 +1,43 @@
+.mat-header-row
+{
+  background-color: darkblue;
+
+
+}
+.mat-header-cell
+{
+  color:white;
+  font-weight: bold;
+}
+
+.mat-table
+{
+  width:80%;
+  margin-top: 2%;
+  margin-left: 10%;
+  font-size: large;
+  font-weight: bold;
+
+}
+
+.mat-cell{
+  color:mediumblue;
+  font-weight: bold;
+}
+
+.mat-paginator
+{
+  margin: 0%;
+  color:mediumblue;
+  font-weight: bold;
+}
+
+
+.mat-fab
+{
+  /*background-color: darkblue;
+  color:white;
+  font-weight: bold;
+  margin-left: 20%;
+*/
+}
